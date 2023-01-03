@@ -12,7 +12,7 @@ int main (){
 	dest << "-------------------- BOOM ---------------------\n" ;
 	string text;
 	while(getline(source,text)){
-	    cout << text << "\n";
+	    dest << text << "\n";
 	}
     dest << "-------------------- HA!! ---------------------" ;
 
